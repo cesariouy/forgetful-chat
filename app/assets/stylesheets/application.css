@@ -23,6 +23,10 @@ body {
 	margin: auto;
 }
 
+h1 {
+	text-align: center;
+}
+
 #chat-window {
 	border: 1px solid white;
 	height: 200px;
