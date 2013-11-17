@@ -37,3 +37,5 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem "pusher"
+
+gem "newrelic_rpm"
