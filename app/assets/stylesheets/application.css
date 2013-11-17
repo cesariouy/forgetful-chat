@@ -1,0 +1,87 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+body {
+	background-color: black;
+	font-family: "courier new";
+}
+
+#container {
+	color: white;
+	width: 400px;
+	margin: auto;
+}
+
+#chat-window {
+	border: 1px solid white;
+	height: 200px;
+	overflow-y: scroll;
+}
+
+textarea {
+	background-color: black;
+	outline: none;
+	border: 1px solid white;
+	color: #00FF33;
+	width: 395px;
+	height: 50px;
+}
+
+input[type=text] {
+	background-color: black;
+	outline: none;
+	border: 1px solid white;
+	color: #00FF33;
+	font-family: "courier new";
+}
+
+input[type=submit] {
+	background-color: black;
+	outline: none;
+	border: 1px solid #FF6600;
+	color: white;
+	font-family: "courier new";
+}
+
+input[type=submit]:hover {
+	background-color: #FF6600;
+}
+
+#chat-list {
+	list-style: none;
+	padding: 0px 10px;
+	margin: 0;
+}
+
+::-webkit-scrollbar {
+	background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+	border: 1px solid #FF6600;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #FF6600;
+}
+
+.auth {
+	color: #0066FF;
+}
+
+.msg {
+	color: #FF0033;
+	margin: 0 0 10px 30px;
+	white-space: pre-wrap;
+}

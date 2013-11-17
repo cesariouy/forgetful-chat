@@ -1,0 +1,27 @@
+<div id="container">
+	<div id="chat-window">
+		<ul id="chat-list">
+		</ul>
+	</div>
+
+	<br>
+
+	<form id="chat-form" action="<%= chat_url %>">
+		<label>message:<br>
+			<textarea name="chat[message]"></textarea>
+		</label>
+
+		<br>
+
+		<label>sign as:
+			<input type="text" name="chat[author]" value="anonymous">
+		</label>
+
+		<input type="submit" value="send">
+	</form>
+</div>
+
+
+<script src="http://js.pusher.com/2.1/pusher.min.js"></script>
+
+<script src="forgetful_chat.js"></script>
